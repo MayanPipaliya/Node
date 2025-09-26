@@ -1,0 +1,15 @@
+:root {
+  --accent: #d35400;
+  --bg: #fff8f0;
+  --muted: #6b6b6b;
+}
+body { font-family: Inter, system-ui, sans-serif; background: var(--bg); margin:0; color:#222; }
+.container { max-width: 1000px; margin: 20px auto; padding: 0 16px; }
+.nav { display:flex; align-items:center; justify-content:space-between; padding:12px 0; border-bottom:1px solid #eee; background:#fff; }
+.brand { font-weight:700; font-size:20px; }
+a { color: var(--accent); text-decoration:none; }
+.card { background:white; border-radius:8px; padding:16px; box-shadow:0 6px 18px rgba(0,0,0,0.04); margin-bottom:12px; }
+button { background: var(--accent); color:white; border:none; padding:8px 12px; border-radius:6px; cursor:pointer; }
+input, textarea { width:100%; padding:8px; margin:6px 0; border-radius:6px; border:1px solid #ddd; }
+.form-row { margin-bottom:12px; }
+.recipes-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
